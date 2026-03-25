@@ -8,7 +8,7 @@
 This project aims to build a **binary classification model** to predict diabetes risk using health indicator data from the CDC's Behavioral Risk Factor Surveillance System (BRFSS) 2015 survey. The model identifies individuals at risk for diabetes, enabling earlier intervention and better public health outcomes.
 
 ## Context
-Diabetes affects over **34 million Americans**, with **88 million** more living with prediabetes—most unaware of their condition. The disease leads to severe complications (cardiovascular disease, kidney failure, vision loss) and represents a **$327 billion annual financial burden**. Early detection is critical for effective treatment and prevention.
+Diabetes affects over **34 million Americans**, with **88 million** more living with prediabetes and most unaware of their condition. The disease leads to severe complications (cardiovascular disease, kidney failure, vision loss) and represents a **$327 billion annual financial burden**. Early detection is critical for effective treatment and prevention.
 
 ## Dataset
 - **Source:** BRFSS 2015 survey (CDC)
