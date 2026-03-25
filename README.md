@@ -44,7 +44,3 @@ Develop a **binary classification model** to predict diabetes probability:
 - Random Forest / Neural Networks
 - SHAP for explainability
 - MLflow / DVC for versioning
-
----
-
-Would you like me to adjust the format or add sections like **Installation**, **Results**, or **Repository Structure**?
