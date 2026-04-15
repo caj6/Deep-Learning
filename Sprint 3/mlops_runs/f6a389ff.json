@@ -1,0 +1,33 @@
+{
+  "run_id": "f6a389ff",
+  "run_name": "hgb_run_02",
+  "experiment": "diabetes_sprint3",
+  "start_time": "2026-04-14T11:15:04.176610",
+  "status": "FINISHED",
+  "params": {
+    "max_iter": 200,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "l2": 0.1,
+    "algorithm": "HistGradientBoosting",
+    "class_weight": "balanced",
+    "random_state": 42,
+    "n_train": 177576,
+    "data_version": "125c6bc5bafd486b"
+  },
+  "metrics": {
+    "val_auc": 0.8266,
+    "val_f1": 0.4381,
+    "val_recall": 0.7929,
+    "test_auc": 0.828,
+    "test_f1": 0.4432,
+    "test_recall": 0.8001,
+    "train_time_s": 2.48
+  },
+  "tags": {
+    "framework": "scikit-learn",
+    "sprint": "3"
+  },
+  "artifacts": [],
+  "end_time": "2026-04-14T11:15:06.929438"
+}

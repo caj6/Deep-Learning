@@ -1,0 +1,38 @@
+{
+  "model_name": "DiabetesPredictor_Sprint3",
+  "version": "3.0",
+  "algorithm": "HistGradientBoostingClassifier + Isotonic Calibration",
+  "framework": "scikit-learn",
+  "dataset_fingerprint": "125c6bc5bafd486b",
+  "decision_threshold": 0.65,
+  "performance": {
+    "test_roc_auc": 0.8284,
+    "test_avg_precision": 0.4272,
+    "test_f1": 0.4669,
+    "test_recall": 0.6083,
+    "test_precision": 0.3788
+  },
+  "top_5_features": [
+    "GenHlth",
+    "BMI",
+    "Age",
+    "HighBP",
+    "HighChol"
+  ],
+  "mlops": {
+    "experiment_runs": 5,
+    "best_run_id": "f6a389ff",
+    "registry_stage": "PRODUCTION"
+  },
+  "sustainability": {
+    "approx_co2_mg": 10.433222,
+    "green_ai_score": 0.85
+  },
+  "created_at": "2026-04-14T16:01:51.318208",
+  "intended_use": "Diabetes risk screening \u2014 clinical decision support (not a substitute for diagnosis)",
+  "limitations": [
+    "Trained on a synthetic/augmented dataset",
+    "External validation on real hospital data required before deployment",
+    "Fairness audit should be extended to protected attributes (sex, ethnicity)"
+  ]
+}

@@ -1,0 +1,6 @@
+run_id,run_name,status,param.max_iter,param.max_depth,param.learning_rate,param.l2,param.algorithm,param.class_weight,param.random_state,param.n_train,param.data_version,metric.val_auc,metric.val_f1,metric.val_recall,metric.test_auc,metric.test_f1,metric.test_recall,metric.train_time_s
+e1fc4de7,hgb_run_01,FINISHED,100,3,0.1,0.0,HistGradientBoosting,balanced,42,177576,125c6bc5bafd486b,0.826,0.4368,0.7923,0.828,0.4438,0.7997,1.09
+f6a389ff,hgb_run_02,FINISHED,200,5,0.05,0.1,HistGradientBoosting,balanced,42,177576,125c6bc5bafd486b,0.8266,0.4381,0.7929,0.828,0.4432,0.8001,2.48
+22eb1cea,hgb_run_03,FINISHED,300,6,0.05,0.1,HistGradientBoosting,balanced,42,177576,125c6bc5bafd486b,0.8265,0.4375,0.7922,0.8283,0.4436,0.8001,2.17
+a68d46e3,hgb_run_04,FINISHED,300,8,0.01,0.5,HistGradientBoosting,balanced,42,177576,125c6bc5bafd486b,0.8247,0.4351,0.7944,0.8268,0.4425,0.8005,5.87
+c289d9cd,hgb_run_05,FINISHED,500,6,0.02,0.2,HistGradientBoosting,balanced,42,177576,125c6bc5bafd486b,0.8265,0.4372,0.7916,0.8284,0.4434,0.7997,5.85
